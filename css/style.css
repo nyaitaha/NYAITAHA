@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header */
+header {
+    background-color: #c0392b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/*navigation */
+.navbar {
+    background-color: #8B0000; 
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  } 
+
+  /*container for image and text */
+.container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  /* image */
+  .image {
+    width: 200px; 
+    height: auto; 
+    margin-right: 20px; 
+  }
+  
+  /*text */
+  .text {
+    font-size: 25px;
+  }
+
+/* Interest*/
+    .intrests{
+        padding: 0px;
+        font-size: 30px;
+
+}
+
+
+
+/* main content */
+main {
+    padding: 30px;
+}
+
+
+/* section headings */
+h2 {
+    color: #c0392b; 
+}
+
+/*footer */
+footer {
+    background-color: #c0392b; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* contact icons */
+.contact-icons {
+    margin-top: 10px;
+}
+
+.contact-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-icons a:last-child {
+    margin-right: 0;
+}

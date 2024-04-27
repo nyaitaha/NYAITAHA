@@ -1,0 +1,86 @@
+/*navigation */
+.navbar {
+    background-color: #8B0000; 
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  } 
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ff6347, #b22222); 
+    color: #fff; 
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background: linear-gradient(to bottom right, #ffd700, #ff6347); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .project img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .project-description {
+    flex: 1;
+  }
+  
+  .project-description h2 {
+    font-size: 24px;
+  }
+  
+  .project-description p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .project-description a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .project-description a:hover {
+    text-decoration: underline;
+  }
+  
+  /*footer */
+footer {
+    background-color: #c0392b; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* contact icons */
+.contact-icons {
+    margin-top: 10px;
+}
+
+.contact-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-icons a:last-child {
+    margin-right: 0;
+}
